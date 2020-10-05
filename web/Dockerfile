@@ -1,6 +1,8 @@
 # BUILD
 FROM golang:1.9.1-alpine3.6 as builder
 
+# WORKDIR /Users/sandeep.vuzzini/codefreshtest/
+
 COPY dispatcher.go .
 RUN go build dispatcher.go
 
