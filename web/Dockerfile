@@ -13,4 +13,4 @@ EXPOSE 80
 CMD ["/dispatcher"]
 
 COPY --from=builder /go/dispatcher /
-COPY static /static/
+COPY static /Users/sandeep.vuzzini/Dropbox/Algorithms/k8s-wordsmith-demo
